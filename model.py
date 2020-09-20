@@ -3,8 +3,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-import torchaudio
-
 from torch.autograd import Variable
 from torch.utils.data import DataLoader, Dataset
 
