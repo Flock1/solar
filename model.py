@@ -67,7 +67,10 @@ class DownConv(nn.Module):
         before_pool = x
         if self.pooling:
             x = self.pool(x)
-        return x, before_pool
+            return x
+        else:
+            
+            return before_pool
     
 class UpConv(nn.Module):
     """
