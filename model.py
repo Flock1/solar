@@ -3,8 +3,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
-import torchaudio
-
 from torch.autograd import Variable
 from torch.utils.data import DataLoader, Dataset
 
@@ -71,6 +69,10 @@ class DownConv(nn.Module):
             x = self.pool(x)
             return x
         else:
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 8814587e200103fa39b0d3c168ccfb3b376068c0
             return before_pool
     
 class UpConv(nn.Module):
