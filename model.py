@@ -69,10 +69,6 @@ class DownConv(nn.Module):
             x = self.pool(x)
             return x
         else:
-<<<<<<< HEAD
-=======
-            
->>>>>>> 8814587e200103fa39b0d3c168ccfb3b376068c0
             return before_pool
     
 class UpConv(nn.Module):
